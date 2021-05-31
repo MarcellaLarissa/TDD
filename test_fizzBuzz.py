@@ -4,14 +4,16 @@ import fizzBuzz
 class TestCase(unittest.TestCase):
 
     #test one
-    def test_leap(self):
-        self.assertEqual(fizzBuzz.nums(1), 1)
+    def test_fizz(self):
+        self.assertEqual(fizzBuzz.fb(1), 1)
     #test two
-    def test_leap2(self):
-        self.assertEqual(fizzBuzz.nums(2), 2)
-    #test two   
-    def test_leap3(self):
-        self.assertEqual(fizzBuzz.nums(3), "buzz")
-        
+    def test_fizz2(self):
+        self.assertEqual(fizzBuzz.fb(2), 2)
+    #test three   
+    def test_fizz3(self):
+        self.assertEqual(fizzBuzz.fb(3), "fizz")
+    #test four   
+    def test_fizz4(self):
+        self.assertEqual(fizzBuzz.fb(5), "buzz")   
 if __name__ == '__main__':
     unittest.main()
