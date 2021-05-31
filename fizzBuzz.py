@@ -1,5 +1,5 @@
 def nums(input):
-    pass
+    return input
     
-    
+input = 1
 nums(input)
