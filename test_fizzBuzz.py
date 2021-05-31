@@ -8,7 +8,10 @@ class TestCase(unittest.TestCase):
         self.assertEqual(fizzBuzz.nums(1), 1)
     #test two
     def test_leap2(self):
-        self.assertEqual(fizzBuzz.nums(1), 2)
+        self.assertEqual(fizzBuzz.nums(2), 2)
+    #test two   
+    def test_leap3(self):
+        self.assertEqual(fizzBuzz.nums(3), "buzz")
         
 if __name__ == '__main__':
     unittest.main()
