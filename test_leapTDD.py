@@ -18,7 +18,9 @@ class TestCase(unittest.TestCase):
     #test five
     def test_leap5(self):
         self.assertEqual(leapTDD.leap(800), "leap year")
-        
+    #test six
+    def test_leap6(self):
+        self.assertEqual(leapTDD.leap(1964), "leap year")        
    
 if __name__ == '__main__':
     unittest.main()
