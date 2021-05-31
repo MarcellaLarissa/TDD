@@ -15,7 +15,9 @@ class TestCase(unittest.TestCase):
     #test four
     def test_leap4(self):
         self.assertEqual(leapTDD.leap(900), "NOT a leap year")        
-
+    #test five
+    def test_leap5(self):
+        self.assertEqual(leapTDD.leap(800), "leap year")
         
    
 if __name__ == '__main__':
