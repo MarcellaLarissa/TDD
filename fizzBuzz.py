@@ -1,7 +1,10 @@
-def nums(input):
+def fb(nums):
     
-    return input
+    if (nums % 3 == 0):
+        return "fizz"
+    else:
+        return nums
     
     
-
-nums(input)
+nums = 1
+fb(nums)
